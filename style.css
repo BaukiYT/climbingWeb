@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*::selection{
+    background-color: rgba(219, 30, 68, 0.504);
+}
+
+
+body{
+    background-image: url("img/pexels-waltc-29335426.jpg");
+    background-size: cover;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+}
+
+.content{
+    background-color: rgba(0, 0, 0, 0.35);
+    color: whitesmoke;
+    padding: 25px;
+    margin: 50px;
+    text-align: justify;
+}
+
+header{
+    background-color: white;
+    height: 150px;
+    vertical-align: middle;
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+
+.logoLink{
+    text-decoration: none;
+    color: black;
+}
+
+#logoImage{
+    float: left;
+}
+
+#topMenu{
+    float: right;
+    margin: 20px;
+    vertical-align: middle;
+}
+
+.topMenuButton{
+    font-size: 35px;
+    background-color: grey;
+    font-weight: bold;
+    justify-self: center;
+    cursor: grab;
+}
+
+#largeImage {
+    padding: 25px;
+    margin: 50px;
+    height: 700px;
+    float: left;
+}
+
+#largeImage img{
+    width: 100%;
+    height: 100%;
+}
+
+#sendMessage:hover{
+    background-color: darkorange;
+    color: black;
+}
+
